@@ -1,0 +1,162 @@
+/* index page  */
+
+body {
+ margin: -21px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    position: fixed;
+    left    : 0;
+    z-index : 500;
+    width   : 100%;
+    height  : 55px;
+    background-color: grey;
+    position: fixed;
+    padding-top: 30px;
+     
+}
+.menu b{
+    color: black;
+    background-color: white ;
+    border-radius: 5px;
+    width: 60px;
+    height: 80px;
+    
+   
+}
+
+.menu b a{
+    float   : left;
+    display : block;
+    padding-right: 80px;
+    padding-left: 80px;
+    font-weight : 700;
+    color       : black;
+    text-align  : center;
+    text-decoration : none;
+    
+
+}
+
+/* a:hover{
+    background-color: rgb(187, 179, 179);
+    width: 50px;
+    height:40px;
+    opacity: 0.5;
+} */
+
+/* heading  */
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    padding-top: 90px;
+}
+
+/* about page  */
+
+.about{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* map page  */
+.map {
+    display: flex;
+    height: 70%;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+
+}
+
+/* allshops page  */
+
+.shops {
+    text-decoration: none;
+    color: black;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.shops img{
+    width: 200px;
+    height:100%;
+    padding-left: 30px;
+}
+
+.shops h3{
+   margin-left: 20px;
+   
+}
+
+.shop{
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+/* allmovies page  */
+.mov{
+    text-align: center;
+}
+.movies {
+    text-decoration: none;
+    color: black;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.movies img{
+    width: 200px;
+    height:100%;
+    padding-left: 30px;
+}
+
+.movies h3{
+   margin-left: 20px;
+   
+}
+
+.movies h3 p{
+    font-size: 15px;
+}
+/* contact page  */
+
+.contact{
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    height: 25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+textarea{
+    width: 50%;
+    height :25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+.Sub{
+    background-color: green;
+    color: black;
+    width: 70px;
+    height:30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
