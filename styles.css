@@ -1,27 +1,64 @@
 /* index page  */
 
+.canal {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    padding-top: 30px;
+}
+.name{
+    /* width: 100%; */
+    height: 120px; 
+    text-align: center; 
+    padding-right: 400px;
+    padding-top: 22px;
+    padding-bottom: 2px;
+    background-color: fixed #b8b8b8;
+    
+}
+.name img{
+    /* width: 50%; */
+    height: 70px;
+    position: fixed;
+    text-align: center;
+}
+
 body {
  margin: -21px;
  font-family: Arial, Helvetica, sans-serif;
+ background-color: #b8b8b8;
 }
+
+
 .menu{
     position: fixed;
     left    : 0;
     z-index : 500;
     width   : 100%;
-    height  : 55px;
-    background-color: grey;
+    height  : 40px;
+    background-color: #858383;
     position: fixed;
-    padding-top: 30px;
-     
+    padding-top: 20px;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+    
 }
+ .header{
+    background-color: #b8b8b8;
+    position: fixed;
+    text-align: center;
+    width: 110%;
+}
+
 .menu b{
     color: black;
     background-color: white ;
     border-radius: 5px;
     width: 60px;
     height: 80px;
-    
    
 }
 
@@ -38,34 +75,48 @@ body {
 
 }
 
-/* a:hover{
-    background-color: rgb(187, 179, 179);
-    width: 50px;
-    height:40px;
-    opacity: 0.5;
-} */
+
+
+/* index page */
+
+.index{
+    text-align: center;
+    text-decoration: none;
+}
+
+.index h3{
+    text-decoration: none;
+}
+
+hr{
+    width: 50%;
+    /* color:#fdf082; */
+}
 
 /* heading  */
 
-h1{
-    color: black;
+.pine{
+    padding-top: 110px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    padding-top: 90px;
+    font-size: 10px;
 }
-
+.pine a{
+    color: inherit;
+}
 /* about page  */
 
 .about{
     text-align: center;
     padding-left: 80px;
     padding-right: 80px;
+    padding-top: 250px;
 }
 
 /* map page  */
 .map {
     display: flex;
     height: 70%;
+    padding-top: 200px;
 }
 
 .image{
@@ -81,7 +132,6 @@ h1{
     color: black;
     width: 40%;
     height: 50%;
-    display: flex;
     align-items: center;
     padding-bottom: 20px;
 }
@@ -102,11 +152,19 @@ h1{
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 30px;
+    padding-top: 250px;
+}
+
+.list{
+    text-align: center;
+    padding-top: 250px;
+    padding-left: 300px;
 }
 
 /* allmovies page  */
 .mov{
     text-align: center;
+    padding-top: 250px;
 }
 .movies {
     text-decoration: none;
@@ -116,6 +174,7 @@ h1{
     display: flex;
     align-items: center;
     padding-bottom: 20px;
+
 }
 
 .movies img{
@@ -136,6 +195,7 @@ h1{
 
 .contact{
     text-align: center;
+    padding-top: 250px;
 }
 
 input{
