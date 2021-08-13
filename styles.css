@@ -1,35 +1,38 @@
 /* index page  */
-
+.menu a:hover{
+ color: white;
+}
 .canal {
     width: 90%;
     height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 50%; */
     padding-top: 30px;
+    
 }
-.name{
+.header .name{
     /* width: 100%; */
-    height: 120px; 
-    text-align: center; 
-    padding-right: 400px;
-    padding-top: 22px;
-    padding-bottom: 2px;
-    background-color: fixed #b8b8b8;
+    height: 90px; 
+    /* text-align: center;  */
+    padding-right: 470px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 0px; */
+    background-color: white;
     
 }
 .name img{
     /* width: 50%; */
     height: 70px;
     position: fixed;
-    text-align: center;
+    /* text-align: center; */
+    padding-top: 20px;
 }
 
 body {
  margin: -21px;
- font-family: Arial, Helvetica, sans-serif;
- background-color: #b8b8b8;
+ font-family: sans-serif;
+ background-color: white;
 }
 
 
@@ -39,15 +42,15 @@ body {
     z-index : 500;
     width   : 100%;
     height  : 40px;
-    background-color: #858383;
+    background-color: #8B4513;
     position: fixed;
     padding-top: 20px;
     border-bottom: black solid 2px;
     border-top: black solid 2px;
     
 }
- .header{
-    background-color: #b8b8b8;
+.header{
+    background-color: white;
     position: fixed;
     text-align: center;
     width: 110%;
@@ -94,11 +97,11 @@ hr{
 }
 
 /* heading  */
-
 .pine{
     padding-top: 110px;
     text-align: center;
     font-size: 10px;
+    background-color: white;
 }
 .pine a{
     color: inherit;
@@ -109,14 +112,53 @@ hr{
     text-align: center;
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 250px;
+    padding-top: 190px;
+}
+.flex1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+}
+.flex1 p{
+    margin-right: 50px ;
+    margin-left: 150px;
+    padding-right: 30px;
 }
 
+.flex1 img{
+    padding-right: 50px;
+}
+
+.flex img{
+    padding-left: 50px;
+}
+.flex{
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+    
+}
+.flex p{
+    margin-right: 150px ;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+.flex img{
+    float: right;
+    
+}
+
+.flex1 img{
+    float: left;
+    
+}
 /* map page  */
 .map {
     display: flex;
     height: 70%;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .image{
@@ -133,7 +175,7 @@ hr{
     width: 40%;
     height: 50%;
     align-items: center;
-    padding-bottom: 20px;
+    
 }
 
 .shops img{
@@ -146,25 +188,43 @@ hr{
    margin-left: 20px;
    
 }
-
-.shop{
+.shops{
     text-align: center;
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
+    /* padding-bottom: 30px; */
+    /* padding-top: 250px; */
+}
+
+.list .shops h3{
+    /* padding-bottom: 0px; */
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.shop{
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 200px;
     padding-bottom: 30px;
-    padding-top: 250px;
+    padding-top: 160px;
+
 }
 
 .list{
+   
     text-align: center;
-    padding-top: 250px;
-    padding-left: 300px;
+    padding-left: 280px;
+    padding-right: 150px;
+    padding-top: 200px;
+
 }
 
 /* allmovies page  */
 .mov{
-    text-align: center;
-    padding-top: 250px;
+    /* text-align: center; */
+    
 }
 .movies {
     text-decoration: none;
@@ -173,7 +233,7 @@ hr{
     height: 50%;
     display: flex;
     align-items: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 
 }
 
@@ -183,19 +243,44 @@ hr{
     padding-left: 30px;
 }
 
-.movies h3{
+.movies h5{
    margin-left: 20px;
    
 }
 
-.movies h3 p{
+
+
+/* .movies h3 p{
     font-size: 15px;
+} */
+.top{
+    padding-left: 25px;
+}
+
+
+    
+.problem1{
+    text-align: center;
+    padding-left: 160px;
+    padding-right: 80px;
+    padding-top: 150px; 
+}
+
+.problem1 h3{
+    padding-right: 60px;
+}
+
+.problem2{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 250px;
 }
 /* contact page  */
 
 .contact{
     text-align: center;
-    padding-top: 250px;
+    padding-top: 190px;
 }
 
 input{
@@ -219,4 +304,60 @@ textarea{
     height:30px;
     text-decoration: none;
     border-radius: 10px;
+}
+
+.thanks{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+}
+
+/* thanks.html */
+.back{
+    background-color: black;
+    color: white;
+    width: 70px;
+    height:30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* categories pages */
+
+.cat{
+    text-align: center;
+    padding-top: 160px;
+}
+
+.cat img{
+    width: 40%;
+    /* height: 70%; */
+}
+
+.list-c{
+    text-align: center;
+    padding-left: 270px;
+   
+    /* padding-right: 150px; */
+}
+
+.list-f{ 
+    padding-left: 360px;
+    text-align: center;
+}
+.shops .kfc{
+    width: 150px;
+    height: 150px;
+}
+.h3{
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 100px;
+
+}
+
+.shops .bk{
+    width: 150px;
+    height: 150px;
 }
